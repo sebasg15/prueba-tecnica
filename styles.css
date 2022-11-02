@@ -45,14 +45,19 @@
 	.spadre {
 		display: flex;
 		justify-content: center;
-
+		flex-direction: column;
 	}
 	.slider {
 		display: flex;
 		gap: 20px;
 		width: 100%;
+		margin-top: 20px;
 		overflow-x: scroll;
 		margin-bottom: 35px;
+	}
+	.slider p{
+		
+		text-align: center;
 	}
 	.spadre::-webkit-scrollbar-thumb {
 		visibility: hidden;
@@ -60,6 +65,7 @@
 
 	.slider img {
 		height: 200px;
+		width: 250px;
 	}
 	.coleccion {
 		text-align: center;
